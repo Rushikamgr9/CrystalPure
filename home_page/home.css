@@ -534,3 +534,76 @@ header i:active{
 
 
 
+/* Footer Section */
+
+footer {
+    /* margin-top: 20vh; */
+    margin-bottom: -2.5vh;
+    height: 50vh;
+    width: 100vw;
+    background-color: #111; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+  }
+
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13vw;
+    padding: 0px 10vw 0px 10vw;
+  }  
+
+  footer ul h1 {
+    font-family: "Josefin Sans", serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1vw;
+    border-bottom: 2px solid #D6B467;  
+  }
+
+  footer ul li {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    font-size: 1.1vw;
+    transition: 0.2s ease-in-out;
+  }
+
+  footer ul li:hover{
+    color: #D6B467;
+    font-weight: 400;
+  }
+
+  footer ul i{
+    margin-left: 0.6vw ;
+    transition: 0.2s ease-in-out;
+  }
+
+  footer ul i:hover {
+    color: #D6B467;
+  }
+
+  footer ul i:active {
+    transform: scale(1.5);
+  }
+
+  /* COPYRIGHT SECTION */
+
+  .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.1vw;
+    margin-bottom: 1vw;
+  }
+
+  .copyright p {
+    font-family: "Josefin Sans", serif;
+    font-size: 0.9vw;
+    font-weight: 300;
+  }
+  
