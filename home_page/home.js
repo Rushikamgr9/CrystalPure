@@ -27,3 +27,22 @@ window.addEventListener("scroll", () => {
     header.style.backgroundColor = "transparent";
   }
 });
+
+// Up down animation of navigation
+
+let lastScrollY = window.scrollY; // Track last scroll position
+let header1 = document.querySelector("header"); // Select the header
+
+window.addEventListener("scroll", () => {
+  let currentScrollY1 = window.scrollY; // Get current scroll position
+
+  if (currentScrollY1 > lastScrollY) {
+    // If scrolling down, hide the header
+    header1.style.transform = "translateY(-100%)";
+  } else {
+    // If scrolling up, show the header
+    header1.style.transform = "translateY(0)";
+  }
+
+  lastScrollY = currentScrollY1; // Update last scroll position
+});
