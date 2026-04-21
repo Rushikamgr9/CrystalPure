@@ -46,3 +46,16 @@ window.addEventListener("scroll", () => {
 
   lastScrollY = currentScrollY1; // Update last scroll position
 });
+
+// Sign up pop up Open
+
+let account_icon = document.querySelector('#nav_right i'); 
+let signUpPopUp = document.querySelector('.sign_up_pop_up');
+
+account_icon.addEventListener("click", function () {
+    if (signUpPopUp) {
+        signUpPopUp.style.display = "flex";
+    } else {
+        console.error("Sign-up pop-up element not found.");
+    }
+});
