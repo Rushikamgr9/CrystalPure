@@ -14,3 +14,16 @@ function navigateTo(page) {
         console.error("Page not found: " + page);
     }
 }
+
+// Bg color chager of navigationlet header = document.querySelector("header"); // Select the header
+
+window.addEventListener("scroll", () => {
+    let scrollY = window.scrollY; // Get current scroll position
+  if (scrollY > 0) {
+    // If scrolled down, add background color
+    header.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+  } else {
+    // If at the top, make background transparent
+    header.style.backgroundColor = "transparent";
+  }
+});
