@@ -59,3 +59,16 @@ account_icon.addEventListener("click", function () {
         console.error("Sign-up pop-up element not found.");
     }
 });
+
+// Sign up pop up close
+
+let close_icon = document.querySelector('.sign_up_right i'); 
+let signUpPopUp1 = document.querySelector('.sign_up_pop_up');
+
+close_icon.addEventListener("click", function () {
+    if (signUpPopUp1) {
+        signUpPopUp1.style.display = "none";
+    } else {
+        console.error("Sign-up pop-up element not found.");
+    }
+});
