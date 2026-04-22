@@ -16,7 +16,6 @@ function navigateTo(page) {
 }
 
 // Bg color chager of navigationlet header = document.querySelector("header"); // Select the header
-
 window.addEventListener("scroll", () => {
     let scrollY = window.scrollY; // Get current scroll position
   if (scrollY > 0) {
@@ -29,7 +28,6 @@ window.addEventListener("scroll", () => {
 });
 
 // Up down animation of navigation
-
 let lastScrollY = window.scrollY; // Track last scroll position
 let header1 = document.querySelector("header"); // Select the header
 
@@ -48,7 +46,6 @@ window.addEventListener("scroll", () => {
 });
 
 // Sign up pop up Open
-
 let account_icon = document.querySelector('#nav_right i'); 
 let signUpPopUp = document.querySelector('.sign_up_pop_up');
 
@@ -61,7 +58,6 @@ account_icon.addEventListener("click", function () {
 });
 
 // Sign up pop up close
-
 let close_icon = document.querySelector('.sign_up_right i'); 
 let signUpPopUp1 = document.querySelector('.sign_up_pop_up');
 
