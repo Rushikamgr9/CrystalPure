@@ -26,3 +26,7 @@ window.addEventListener("scroll", () => {
         header.style.backgroundColor = "rgba(0, 0, 0, 0.95)";
     }
 });
+
+// Up down animation of navigation
+let lastScrollY = window.scrollY;
+let header1 = document.querySelector("header");
