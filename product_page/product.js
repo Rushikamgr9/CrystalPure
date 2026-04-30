@@ -42,3 +42,16 @@ window.addEventListener("scroll", () => {
 
     lastScrollY = currentScrollY1;
 });
+
+// Heart icon toggle function
+function changeColor(elem) {
+    if (elem.classList.contains('fa-heart-o')) {
+        elem.classList.remove('fa-heart-o');
+        elem.classList.add('fa-heart');
+        elem.style.color = '#FFD700';
+    } else {
+        elem.classList.remove('fa-heart');
+        elem.classList.add('fa-heart-o');
+        elem.style.color = '#D6B467';
+    }
+}
