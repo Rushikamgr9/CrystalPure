@@ -30,3 +30,15 @@ window.addEventListener("scroll", () => {
 // Up down animation of navigation
 let lastScrollY = window.scrollY;
 let header1 = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+    let currentScrollY1 = window.scrollY;
+
+    if (currentScrollY1 > lastScrollY) {
+        header1.style.transform = "translateY(-100%)";
+    } else {
+        header1.style.transform = "translateY(0)";
+    }
+
+    lastScrollY = currentScrollY1;
+});
