@@ -49,3 +49,8 @@ header span {
     color: #D6B467;
     letter-spacing: 1px;
 }
+
+header div:nth-child(2) {
+    display: flex;
+    gap: 30px;
+}
