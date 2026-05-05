@@ -42,3 +42,10 @@ header {
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(214, 180, 103, 0.2);
 }
+
+header span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #D6B467;
+    letter-spacing: 1px;
+}
