@@ -263,3 +263,34 @@ footer {
     }
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header div:nth-child(2) {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blog-header h1 {
+        font-size: 36px;
+    }
+
+    .blog-posts {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter {
+        padding: 40px 20px;
+        margin: 40px 20px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+}
