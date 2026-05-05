@@ -64,3 +64,45 @@ header button {
     transition: all 0.3s ease;
     font-weight: 500;
 }
+
+header button:hover {
+    color: #D6B467;
+    transform: translateY(-2px);
+}
+
+#nav_right {
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#nav_right:hover {
+    color: #D6B467;
+}
+
+/* Blog Container */
+.blog-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 60px;
+    animation: slideDown 0.8s ease;
+}
+
+.blog-header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #D6B467 0%, #FFD700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.blog-header p {
+    font-size: 20px;
+    color: #a8a8a8;
+}
