@@ -14,3 +14,15 @@ function navigateTo(page) {
         console.error("Page not found: " + page);
     }
 }
+
+// Bg color changer of navigation
+let header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+    let scrollY = window.scrollY;
+    if (scrollY > 0) {
+        header.style.backgroundColor = "rgba(0, 0, 0, 0.95)";
+    } else {
+        header.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+    }
+});
