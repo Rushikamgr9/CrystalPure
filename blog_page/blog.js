@@ -26,3 +26,11 @@ window.addEventListener("scroll", () => {
         header.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
     }
 });
+
+// Newsletter form submission
+document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = this.querySelector('input[type="email"]').value;
+    alert(`Thank you for subscribing with ${email}!`);
+    this.reset();
+});
