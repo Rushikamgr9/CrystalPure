@@ -54,3 +54,13 @@ header div:nth-child(2) {
     display: flex;
     gap: 30px;
 }
+
+header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
