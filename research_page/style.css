@@ -53,3 +53,8 @@ header nav ul li a {
     font-size: 16px;
     transition: all 0.3s ease;
 }
+
+header nav ul li a:hover {
+    color: #D6B467;
+    transform: translateY(-2px);
+}
