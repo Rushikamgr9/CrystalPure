@@ -58,3 +58,10 @@ header nav ul li a:hover {
     color: #D6B467;
     transform: translateY(-2px);
 }
+
+/* Main Section */
+main {
+    padding: 60px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
