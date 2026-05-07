@@ -59,6 +59,13 @@ header nav ul li a:hover {
     transform: translateY(-2px);
 }
 
+/* Main Section */
+main {
+    padding: 60px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 main h1 {
     font-size: 48px;
     margin-bottom: 40px;
@@ -69,8 +76,19 @@ main h1 {
     background-clip: text;
 }
 
- main h2 {
+main h2 {
     font-size: 36px;
     margin: 40px 0 30px 0;
     color: #D6B467;
 }
+
+/* Screenshot Section Styling */
+.screenshots {
+    margin-bottom: 60px;
+}
+
+.screenshots h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
