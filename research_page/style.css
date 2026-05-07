@@ -58,3 +58,19 @@ header nav ul li a:hover {
     color: #D6B467;
     transform: translateY(-2px);
 }
+
+main h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    background: linear-gradient(135deg, #D6B467 0%, #FFD700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+ main h2 {
+    font-size: 36px;
+    margin: 40px 0 30px 0;
+    color: #D6B467;
+}
