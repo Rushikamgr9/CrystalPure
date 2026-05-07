@@ -92,3 +92,15 @@ main h2 {
     margin-bottom: 40px;
 }
 
+.screenshot-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.comparison-table {
+        padding: 20px;
+        margin-bottom: 40px;
+        overflow-x: auto;
+    }
+
