@@ -48,3 +48,26 @@ header {
     backdrop-filter: blur(10px);
 }
 
+header span {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    color: #D6B467;
+    letter-spacing: 1px;
+}
+
+header div button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header div button:hover {
+    color: #D6B467;
+    transform: translateY(-2px);
+}
