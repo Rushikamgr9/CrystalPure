@@ -71,3 +71,32 @@ header div button:hover {
     color: #D6B467;
     transform: translateY(-2px);
 }
+
+header i {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 22px;
+}
+
+header i:hover {
+    color: #D6B467;
+}
+
+/* Main Container Section */
+#main_container_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    padding: 60px 40px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+}
