@@ -16,3 +16,16 @@ html::-webkit-scrollbar {
     display: none;
 }
 
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #000000;
+    color: white;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: white;
+}
