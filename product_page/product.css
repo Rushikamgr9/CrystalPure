@@ -178,3 +178,35 @@ header i:hover {
     line-height: 1.6;
     text-align: center;
 }
+
+/* Price Styling */
+.product-price {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #808080;
+    font-size: 16px;
+}
+
+.discount-price {
+    font-size: 22px;
+    font-weight: 600;
+    color: #D6B467;
+}
+
+.discount-percent {
+    font-size: 13px;
+    background: linear-gradient(135deg, #D6B467 0%, #FFD700 100%);
+    color: #000;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
