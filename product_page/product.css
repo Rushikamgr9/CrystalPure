@@ -136,3 +136,22 @@ header i:hover {
 .boxs:hover .product-image {
     transform: scale(1.05);
 }
+
+/* Heart Icon */
+.boxs i {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 24px;
+    color: #D6B467;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.6);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgba(214, 180, 103, 0.3);
+}
