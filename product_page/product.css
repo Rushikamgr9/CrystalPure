@@ -210,3 +210,18 @@ header i:hover {
     border-radius: 20px;
     font-weight: bold;
 }
+
+/* Add to Cart Button */
+.cart-button {
+    background: linear-gradient(135deg, #D6B467 0%, #FFD700 100%);
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-top: 15px;
+}
