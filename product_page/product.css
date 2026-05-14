@@ -155,3 +155,26 @@ header i:hover {
     border-radius: 50%;
     border: 1px solid rgba(214, 180, 103, 0.3);
 }
+
+.boxs i:hover {
+    background: rgba(214, 180, 103, 0.2);
+    transform: scale(1.2);
+}
+
+/* Product Name */
+.product-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
+
+/* Product Description */
+.product-description {
+    font-size: 14px;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    text-align: center;
+}
